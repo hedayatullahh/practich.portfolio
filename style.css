@@ -1,0 +1,14 @@
+.flexible{
+    display: flex;}
+#big-margin{
+    width: 60%;
+    margin: 10%;
+}
+#sort-margin{
+    width: 30%;
+    margin-top: 10%;
+    margin-right: 10;
+}
+.font-size{
+    font-size: 50px;
+}
