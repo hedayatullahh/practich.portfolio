@@ -1,14 +1,28 @@
-.flexible{
-    display: flex;}
-#big-margin{
-    width: 60%;
-    margin: 10%;
+*{
+    margin: 0;
+    padding: 0;
 }
-#sort-margin{
-    width: 30%;
-    margin-top: 10%;
-    margin-right: 10;
+
+.benar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url(./imeges/download\ \(1\).jpg);
+    height: 500px;
 }
-.font-size{
+.lift img{
+    width: 300px;
+}
+.centar{
+    text-align: center;
+    color: white;
+}
+.right img{
+   width: 300px;
+}
+.centar h1{
     font-size: 50px;
+}
+#title{
+    font-size: 80px;
 }
