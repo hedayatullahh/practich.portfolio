@@ -61,6 +61,10 @@
     display: flex;
     margin: 50px;
     justify-content:space-around;
+    background-image: url(./imeges/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position:right;
+    background-position: left right;
 }
 .imege1{
 background-color: burlywood;
@@ -72,11 +76,13 @@ height: 300px;
     background-color: burlywood;
     box-shadow: 10px 10px 3px grey;
     text-align: center;
+    height: 300px;
 }
 .imege3{
     background-color: burlywood;
     box-shadow: 10px 10px 3px grey;
     text-align: center;
+    height: 300px;
     
 }
 .button{
@@ -91,4 +97,57 @@ height: 300px;
 }
 .button-div{
     margin-top: 30px;
+}
+.title{
+    text-align: center;
+    color: white;
+    background-color: rgb(0, 128, 60);
+    background-size: 50px;
+    padding: 10px 20px;
+    margin: 100px 400px 100px 400px;
+    border: 10px orange;
+    border-radius: 10px;
+}
+.title h1{
+    font-size: 70px;
+}
+.our{
+    text-align: center;
+    background-color: blue;
+    border: 10px solid yellowgreen;
+    border-radius: 20px;
+    font-size: 50px;
+    margin: 100px 500px 100px 500px;
+    color: white;
+}
+.services{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 60px;
+}
+.item1{
+    background-color: green;
+    padding: 60px 50px 70px 50px ;
+    border: 10px solid yellowgreen;
+    border-radius: 20px;
+    color: white;
+    font-size: 20px;
+}
+.item2{
+    background-color: green;
+    padding: 60px 50px 70px 50px ;
+    border: 10px solid yellowgreen;
+    border-radius: 20px;
+    color: white;
+    font-size: 20px;
+}
+.services h1{
+    text-align: center;
+    padding-bottom: 10px;
+    font-size: 30px;
+}
+footer p{
+    text-align: center;
+    font-size: 18px;
+    padding-bottom: 30px;
 }
